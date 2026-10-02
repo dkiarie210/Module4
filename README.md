@@ -15,13 +15,4 @@ python run_model_pipeline.py
 mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5000
 ```
 
-Open `http://127.0.0.1:5000`.
-
-## FastAPI
-
-```bash
-uvicorn api.main:app --reload
-```
-
-Open `http://127.0.0.1:8000/docs`.
 

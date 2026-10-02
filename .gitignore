@@ -1,7 +1,7 @@
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*.csv
-models/*.joblib
+
 mlruns/
 mlflow.db
 __pycache__/
